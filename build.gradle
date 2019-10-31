@@ -37,6 +37,10 @@ buildscript {
   }
 }
 
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+
 group = "io.reactivex.rxjava3"
 ext.githubProjectName = "rxjava"
 
